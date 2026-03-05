@@ -14,12 +14,12 @@
           </header>
           <ul>
             <li>
-              Spearheaded delivery of a DevOps Strategy focused around five key initiatives;
-              Foundational Infrastructure, Platform Engineering, Release Engineering, Security &
-              Compliance and Reliability Engineering
+              Spearheaded delivery of a DevOps strategy focused on five key initiatives:
+              foundational infrastructure, platform engineering, release engineering, security and
+              compliance, and reliability engineering
             </li>
             <li>
-              Developed a custom well-architected multi-account AWS Landing Zone
+              Developed a custom AWS Well-Architected multi-account landing zone
             </li>
             <li>
               Ensured people, pipelines and machines can securely access AWS APIs in a
@@ -31,16 +31,16 @@
             </li>
             <li>
               Facilitated rapid iteration and repeatable delivery through development of a
-              python-based CI/CD/CT framework that can be ran locally for rapid development iteration
+              Python-based CI/CD/CT framework that can be run locally for rapid iterative development
               and in GitHub Actions for safe production deployments
             </li>
             <li>
               Utilised AWS Systems Manager to provision and manage long-running tasks in
-              performance-critical systems, on EC2 and managed hybrid instances and standardised
-              architecture for scheduled and event driven tasks using containers, EventBridge, Step
+              performance-critical systems, on EC2 and managed hybrid instances, and standardised the
+              architecture for scheduled and event-driven tasks using containers, EventBridge, Step
               Functions and ECS
             </li>
-            <li>Reduced monthly AWS spend by 10% through targeted cost optimizations</li>
+            <li>Reduced monthly AWS spend by 10% through targeted cost optimisations</li>
           </ul>
         </main>
       </div>
@@ -74,11 +74,11 @@
               development teams
             </li>
             <li>
-              Designed and lead development of control plane APIs for the platform, leveraging
+              Designed and led development of control-plane APIs for the platform, leveraging
               serverless technologies like AWS Lambda, API Gateway, Step Functions, DynamoDB and S3
             </li>
             <li>
-              Lead the design and development of an Azure Devops based CI/CD/CT framework, enabling
+              Led the design and development of an Azure DevOps-based CI/CD/CT framework, enabling
               teams to build and deploy services to multiple environments with minimal configuration
             </li>
             <li>
@@ -92,10 +92,10 @@
             </li>
             <li>
               Guided my team to improve code quality and reliability through automated testing,
-              linting, formatting and type-checking at CI time
+              linting, formatting and type-checking in CI
             </li>
             <li>
-              Mentored junior and mid level engineers through pair programming and code reviews,
+              Mentored junior and mid-level engineers through pair programming and code reviews,
               helping to improve their technical skills and confidence
             </li>
           </ul>
@@ -117,25 +117,25 @@
               <b>Kafka</b>, Storm and DocumentDB
             </li>
             <li>
-              Wrote T-<b>SQL</b> migration scripts and helped maintain schemas and stored procedures
+              Wrote <b>T-SQL</b> migration scripts and helped maintain schemas and stored procedures
               for Microsoft SQL Server databases
             </li>
             <li>
-              Integrated with third party platforms, including PoS systems, and designed and
+              Integrated with third-party platforms, including POS systems, and designed and
               developed <b>ETL pipelines</b>
               for ingesting customer transaction data
             </li>
             <li>
               Developed a proof-of-concept <b>multi-account AWS landing zone</b> using
-              <b>Terraform</b> for a greenfield data lake-house platform
+              <b>Terraform</b> for a greenfield data lakehouse platform
             </li>
             <li>
-              Integrated VueJS framework into a legacy Java Server Pages environment to enable
+              Integrated Vue.js into a legacy Java Server Pages environment to enable
               <b>incremental adoption</b> of modern frontend technologies
             </li>
             <li>
               Designed and built frontend pages and components, including a nested condition builder
-              with a 'drag-n-drop' interface
+              with a 'drag-and-drop' interface
             </li>
           </ul>
         </main>

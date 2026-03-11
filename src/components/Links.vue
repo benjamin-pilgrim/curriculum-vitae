@@ -1,13 +1,17 @@
 <template>
   <main class="links">
-    <a href="mailto:ben@pilgrim.me.uk" target="_blank">ben@pilgrim.me.uk</a>
-    <icon name="envelope" />
-    <a href="https://maps.app.goo.gl/VG6d3VYSqo2JQzQK8" target="_blank">Colchester, Essex</a>
-    <icon name="map-marked-alt" />
-    <a href="tel:07950365848" target="_blank">07950 365848</a>
-    <icon name="mobile-alt" />
-    <a href="https://github.com/tgnthump?tab=repositories" target="_blank">TGNThump</a>
-    <icon brand name="github" />
+    <a href="mailto:ben@pilgrim.me.uk" target="_blank"
+      >ben@pilgrim.me.uk <icon name="envelope"
+    /></a>
+    <a href="https://maps.app.goo.gl/VG6d3VYSqo2JQzQK8" target="_blank"
+      >Colchester, Essex <icon name="map-marked-alt"
+    /></a>
+    <a href="tel:07950365848" target="_blank"
+      >07950 365848 <icon name="mobile-alt"
+    /></a>
+    <a href="https://github.com/tgnthump?tab=repositories" target="_blank"
+      >TGNThump <icon brand name="github"
+    /></a>
   </main>
 </template>
 
@@ -20,22 +24,29 @@ export default {
 
 <style lang="scss" scoped>
 .links {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  grid-auto-rows: 2em;
-  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.34em;
+  padding: 0 22px 10px 15px;
   text-align: right;
-  grid-column-gap: 10px;
-  align-items: center;
-  justify-content: center;
 
   > a {
-    justify-self: right;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.45em;
+    padding: 0;
     font-weight: normal;
+    line-height: 1.2;
+    font-size: 0.9em;
+    white-space: nowrap;
   }
 
-  > i {
-    justify-self: center;
+  > a > i {
+    font-size: 0.9em;
+    color: #2b3559;
+    opacity: 1;
+    line-height: 1;
   }
 
   > * {

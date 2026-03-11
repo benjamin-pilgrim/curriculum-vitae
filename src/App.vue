@@ -18,10 +18,9 @@
             Developed a custom
             <acronym title="Continuous Integration / Continuous Delivery">CI/CD</acronym>
             framework for fast, reproducible local and GitHub Actions builds and deployments,
-            underpinned by open-source libraries including
+            underpinned by open-source libraries.
             <repo-link href="https://github.com/risqcapital/pyhcl2">pyhcl2</repo-link>
-            and
-            <repo-link href="https://github.com/risqcapital/pyagnostics">pyagnostics</repo-link>.
+            <repo-link href="https://github.com/risqcapital/pyagnostics">pyagnostics</repo-link>
           </li>
           <li>
             Delivered a custom <acronym title="Amazon Web Services">AWS</acronym> landing zone in
@@ -198,9 +197,10 @@ export default {
 
 <style lang="scss">
 $primary: #3a446e;
+$header-gap: 22px;
 
 @import 'normalize.css/normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Montserrat&display=swap');
 @import 'paper-css/paper.css';
 
 *,
@@ -262,22 +262,23 @@ abbr[title] {
 .repo-pill:hover {
   display: inline-flex;
   align-items: center;
-  gap: 0.35em;
+  gap: 0.28em;
   vertical-align: baseline;
-  margin: 0 0.15em;
-  padding: 0.02em 0.35em;
-  border: 1px solid rgba(58, 68, 110, 0.14);
+  margin: 0 0.12em 0 0;
+  padding: 0.01em 0.28em;
+  border: 1px solid rgba(58, 68, 110, 0.1);
   border-radius: 999px;
-  background: rgba(58, 68, 110, 0.03);
+  background: rgba(58, 68, 110, 0.02);
   color: inherit;
-  font-size: 0.92em;
+  font-size: 0.88em;
   white-space: nowrap;
 }
 
 .repo-pill > i {
-  font-size: 0.82em;
+  font-size: 0.76em;
   line-height: 1;
-  opacity: 0.8;
+  color: #2b3559;
+  opacity: 1;
 }
 
 .muted {
@@ -299,13 +300,22 @@ section {
   grid-template-columns: 27% auto;
 }
 
+section:last-of-type > .row:not(:last-child) main {
+  padding-bottom: 0.16em;
+}
+
 aside,
 main {
-  padding: 0.7em 1em 0 15px;
+  padding: 0.6em 1em 0 15px;
 
   > * {
-    padding-bottom: 0.6em;
+    padding-bottom: 0.5em;
   }
+}
+
+.sheet-content > .row:first-child aside,
+.sheet-content > .row:first-child main {
+  padding-top: $header-gap;
 }
 
 aside {
@@ -328,10 +338,12 @@ h6 {
 }
 
 h1 {
-  padding-top: 0.4em;
-  padding-bottom: 0.2em;
-  line-height: 2.4rem;
+  font-family: 'Manrope', sans-serif;
+  padding-top: 0;
+  padding-bottom: $header-gap;
+  line-height: 2.15rem;
   font-size: 2rem;
+  letter-spacing: -0.02em;
 }
 
 .tech-list {
@@ -367,10 +379,18 @@ h1 {
 }
 
 ul {
-  margin: 0 15px;
+  margin: 0 15px 0 8px;
+  padding: 0;
+  list-style: none;
 }
 
 li {
-  margin-bottom: 5px;
+  padding-left: 0;
+  margin-bottom: 6px;
+}
+
+main > header b {
+  font-weight: 600;
+  color: inherit;
 }
 </style>

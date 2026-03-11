@@ -222,6 +222,7 @@ body.A4 .sheet {
 .sheet-content {
   display: flex;
   flex-direction: column;
+  background: linear-gradient(to right, #3a446e 0, #3a446e 27%, #ffffff 27%, #ffffff 100%);
 }
 
 body {
@@ -319,7 +320,7 @@ main {
 }
 
 aside {
-  background: #3a446e;
+  background: transparent;
   color: #ffffff;
   text-align: right;
   padding-right: 1em;

@@ -2,24 +2,20 @@
   <main class="links">
     <a href="mailto:ben@pilgrim.me.uk" target="_blank">ben@pilgrim.me.uk</a>
     <icon name="envelope" />
-    <a href="https://maps.app.goo.gl/VG6d3VYSqo2JQzQK8" target="_blank"
-      >Colchester, Essex</a
-    >
+    <a href="https://maps.app.goo.gl/VG6d3VYSqo2JQzQK8" target="_blank">Colchester, Essex</a>
     <icon name="map-marked-alt" />
     <a href="tel:07950365848" target="_blank">07950 365848</a>
     <icon name="mobile-alt" />
-    <a href="https://github.com/tgnthump?tab=repositories" target="_blank"
-      >TGNThump</a
-    >
+    <a href="https://github.com/tgnthump?tab=repositories" target="_blank">TGNThump</a>
     <icon brand name="github" />
   </main>
 </template>
 
 <script>
-import Icon from "./Icon.vue";
+import Icon from './Icon.vue'
 export default {
-  components: { Icon },
-};
+  components: { Icon }
+}
 </script>
 
 <style lang="scss" scoped>

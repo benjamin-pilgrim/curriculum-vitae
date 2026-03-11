@@ -14,33 +14,55 @@
           </header>
           <ul>
             <li>
-              Spearheaded delivery of a DevOps strategy focused on five key initiatives:
-              foundational infrastructure, platform engineering, release engineering, security and
-              compliance, and reliability engineering
+              Developed a custom
+              <abbr title="Continuous Integration / Continuous Delivery">CI/CD</abbr> framework for
+              fast, reproducible local and GitHub Actions builds and deployments, underpinned by
+              open-source libraries including
+              <a class="repo-pill" href="https://github.com/risqcapital/pyhcl2"
+                >pyhcl2 <icon brand name="github"
+              /></a>
+              and
+              <a class="repo-pill" href="https://github.com/risqcapital/pyagnostics"
+                >pyagnostics <icon brand name="github"
+              /></a>.
             </li>
             <li>
-              Developed a custom AWS Well-Architected multi-account landing zone
+              Delivered a custom <abbr title="Amazon Web Services">AWS</abbr> landing zone in
+              Terraform with multi-account patterns for tenant and environment isolation, security,
+              and compliance controls.
             </li>
             <li>
-              Ensured people, pipelines and machines can securely access AWS APIs in a
-              least-privileged manner using IAM, Identity Center, Systems Manager and Cognito
+              Designed <abbr title="Identity and Access Management">IAM</abbr> architecture for
+              humans, workloads, pipelines, and cloud and co-located on-premises instances,
+              enforcing least privilege through
+              <abbr title="Attribute-Based Access Control">ABAC</abbr>,
+              <abbr title="OpenID Connect">OIDC</abbr>, and permission boundaries.
             </li>
             <li>
-              Designed and implemented a global hybrid network built around AWS Cloud WAN,
-              connecting VPCs in multiple regions, as well as co-located networks
+              Rebuilt information security policies, documentation, and
+              <abbr title="Information Security Management System">ISMS</abbr> to achieve audit
+              readiness against a regulated external framework.
             </li>
             <li>
-              Facilitated rapid iteration and repeatable delivery through development of a
-              Python-based CI/CD/CT framework that can be run locally for rapid iterative development
-              and in GitHub Actions for safe production deployments
+              Architected a global hybrid network using Cloud WAN,
+              <abbr title="IP Address Manager">IPAM</abbr>,
+              <abbr title="Virtual Private Network">VPN</abbr>, and Route 53, connecting cloud
+              and co-located environments.
             </li>
             <li>
-              Utilised AWS Systems Manager to provision and manage long-running tasks in
-              performance-critical systems, on EC2 and managed hybrid instances, and standardised the
-              architecture for scheduled and event-driven tasks using containers, EventBridge, Step
-              Functions and ECS
+              Defined reusable Terraform modules and deployment patterns for golden-path building
+              blocks, including ephemeral batch and scheduled workloads, and custom
+              <abbr title="Systems Manager">SSM</abbr>-based deployments for long-running,
+              systemd-managed trading systems.
             </li>
-            <li>Reduced monthly AWS spend by 10% through targeted cost optimisations</li>
+            <li>
+              Built a data platform for batch and streaming time-series market data, with
+              metadata-driven integrity and retry handling.
+            </li>
+            <li>
+              Reduced monthly <abbr title="Amazon Web Services">AWS</abbr> spend by 10% through
+              targeted infrastructure and workload cost optimisation.
+            </li>
           </ul>
         </main>
       </div>
@@ -61,42 +83,49 @@
                 href="https://event.computing.co.uk/digitaltechnologyleaderswards2023/en/page/2023-finalists"
                 >Young Digital Professional of the Year</a
               >
-              in the 2023 Computing Digital Technology Leaders Awards
+              in the 2023 Computing Digital Technology Leaders Awards.
             </li>
             <li>
-              Helped to define and implement a strategy for a global Internal Developer Platform,
-              driving efficiency while reducing time-to-market for new functionality
+              Contributed to strategy for a global Internal Developer Platform, improving
+              developer efficiency and reducing time to market.
             </li>
             <li>
-              Participated in small rapid delivery sprints of key engineers selected to mitigate
-              strategic blockers, including integrating and onboarding the first client team,
-              demonstrating value to the wider business and providing feedback to downstream
-              development teams
+              Selected for focused specialist sprints to unblock strategic platform issues,
+              including onboarding the first client team and feeding implementation insights back
+              to downstream teams.
             </li>
             <li>
-              Designed and led development of control-plane APIs for the platform, leveraging
-              serverless technologies like AWS Lambda, API Gateway, Step Functions, DynamoDB and S3
+              Designed and led development of control-plane
+              <abbr title="Application Programming Interfaces">APIs</abbr> for the platform,
+              built on serverless <abbr title="Amazon Web Services">AWS</abbr> services including
+              Lambda, API Gateway, Step Functions, DynamoDB, and S3.
             </li>
             <li>
-              Led the design and development of an Azure DevOps-based CI/CD/CT framework, enabling
-              teams to build and deploy services to multiple environments with minimal configuration
+              Led the design and development of an Azure DevOps-based
+              <abbr title="Continuous Integration / Continuous Delivery / Continuous Testing"
+                >CI/CD/CT</abbr
+              >
+              framework for standardised multi-environment service delivery.
             </li>
             <li>
-              Developed a CLI tool and web interface for parameterised service templates, enabling
-              deployment of new services, complete with baseline CI/CD, infrastructure and code in
-              minutes rather than days
+              Developed a <abbr title="Command-Line Interface">CLI</abbr> tool and web interface
+              for parameterised service templates, enabling teams to scaffold new services with
+              baseline <abbr title="Continuous Integration / Continuous Delivery">CI/CD</abbr>,
+              infrastructure, and code in minutes rather than days.
             </li>
             <li>
-              Maintained widely adopted internal Terraform modules for AWS infrastructure, ensuring
-              they are well-documented, tested and easy to use for downstream teams
+              Maintained widely adopted internal Terraform modules for
+              <abbr title="Amazon Web Services">AWS</abbr> infrastructure, improving
+              documentation, test coverage, and usability for downstream teams.
             </li>
             <li>
               Guided my team to improve code quality and reliability through automated testing,
-              linting, formatting and type-checking in CI
+              linting, formatting and type-checking in
+              <abbr title="Continuous Integration">CI</abbr>.
             </li>
             <li>
               Mentored junior and mid-level engineers through pair programming and code reviews,
-              helping to improve their technical skills and confidence
+              helping to improve their technical skills and confidence.
             </li>
           </ul>
         </main>
@@ -109,33 +138,29 @@
           </header>
           <ul>
             <li>
-              Worked as a Java <b>backend engineer</b> on an
-              <b>event-driven multi-tenant</b> loyalty and marketing automation <b>SaaS</b> platform
+              Java backend engineer on an event-driven multi-tenant loyalty and marketing
+              automation <abbr title="Software as a Service">SaaS</abbr> platform.
             </li>
             <li>
               Developed a real-time transaction and promotion rules engine using Spring Boot,
-              <b>Kafka</b>, Storm and DocumentDB
+              Kafka, Storm and DocumentDB.
             </li>
             <li>
-              Wrote <b>T-SQL</b> migration scripts and helped maintain schemas and stored procedures
-              for Microsoft SQL Server databases
+              Developed third-party integrations and
+              <abbr title="Extract, Transform, Load">ETL</abbr> pipelines for customer transaction
+              data, including <abbr title="Point of Sale">POS</abbr> systems.
             </li>
             <li>
-              Integrated with third-party platforms, including POS systems, and designed and
-              developed <b>ETL pipelines</b>
-              for ingesting customer transaction data
+              Developed a multi-account <abbr title="Amazon Web Services">AWS</abbr> landing zone
+              proof of concept in Terraform for a greenfield data lakehouse platform.
             </li>
             <li>
-              Developed a proof-of-concept <b>multi-account AWS landing zone</b> using
-              <b>Terraform</b> for a greenfield data lakehouse platform
-            </li>
-            <li>
-              Integrated Vue.js into a legacy Java Server Pages environment to enable
-              <b>incremental adoption</b> of modern frontend technologies
+              Integrated Vue.js into a legacy Java Server Pages environment to enable incremental
+              frontend modernisation.
             </li>
             <li>
               Designed and built frontend pages and components, including a nested condition builder
-              with a 'drag-and-drop' interface
+              with a 'drag-and-drop' interface.
             </li>
           </ul>
         </main>
@@ -156,9 +181,10 @@
 <script>
 import { useMeta } from 'vue-meta'
 import Links from './components/Links.vue'
+import Icon from './components/Icon.vue'
 
 export default {
-  components: { Links },
+  components: { Icon, Links },
   setup() {
     useMeta({
       title: 'Benjamin Pilgrim - Curriculum Vitae',
@@ -214,6 +240,42 @@ a:hover {
   color: inherit;
   text-decoration: none;
   font-style: normal;
+}
+
+abbr[title] {
+  text-decoration: none;
+  border-bottom: 0;
+  cursor: inherit;
+}
+
+@media screen {
+  abbr[title]:hover {
+    cursor: help;
+    text-decoration: underline dotted rgba(58, 68, 110, 0.35);
+    text-underline-offset: 0.12em;
+  }
+}
+
+.repo-pill,
+.repo-pill:hover {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  vertical-align: baseline;
+  margin: 0 0.15em;
+  padding: 0.02em 0.35em;
+  border: 1px solid rgba(58, 68, 110, 0.14);
+  border-radius: 999px;
+  background: rgba(58, 68, 110, 0.03);
+  color: inherit;
+  font-size: 0.92em;
+  white-space: nowrap;
+}
+
+.repo-pill > i {
+  font-size: 0.82em;
+  line-height: 1;
+  opacity: 0.8;
 }
 
 .sheet,

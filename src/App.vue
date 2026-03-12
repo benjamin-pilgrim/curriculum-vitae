@@ -10,7 +10,8 @@
         <template #date>Feb 2024 - Present</template>
         <template #header>
           <header>
-            <b><a href="https://risqcapital.com">RISQ Capital</a></b> - Senior DevOps Engineer
+             <b><a href="https://risqcapital.com">RISQ Capital</a></b
+            ><br />Senior DevOps Engineer
           </header>
         </template>
         <ul>
@@ -55,8 +56,8 @@
             metadata-driven integrity and retry handling.
           </li>
           <li>
-            Reduced monthly <acronym title="Amazon Web Services">AWS</acronym> spend by 10% through
-            targeted infrastructure and workload cost optimisation.
+            Saved £20,000 in <acronym title="Amazon Web Services">AWS</acronym> spend through
+            infrastructure and workload cost optimisation.
           </li>
         </ul>
       </role-block>
@@ -64,11 +65,12 @@
         <template #date>Mar 2022 - Nov 2023</template>
         <template #header>
           <header>
-            <b><a href="https://www.mmtdigital.co.uk/">MMT Digital</a></b> - Cloud Systems Engineer
+            <b><a href="https://www.mmtdigital.co.uk/">MMT Digital</a></b
+            ><br />Cloud Systems Engineer
           </header>
           <header>
-            <b><a href="https://careers.vodafone.co.uk/digital-consumer">Vodafone</a></b> - Senior
-            DevOps Engineer <span class="muted">(via MMT Digital)</span>
+            <b><a href="https://careers.vodafone.co.uk/digital-consumer">Vodafone</a></b
+            ><br />Senior DevOps Engineer <br /><span class="muted">(via MMT Digital)</span>
           </header>
         </template>
         <ul>
@@ -128,7 +130,8 @@
         <template #date>Jul 2019 - Mar 2022</template>
         <template #header>
           <header>
-            <b><a href="https://www.htk.co.uk/">HTK</a></b> - Software Engineer
+            <b><a href="https://www.htk.co.uk/">HTK</a></b
+            ><br />Software Engineer
           </header>
         </template>
         <ul>
@@ -163,10 +166,13 @@
         <template #date>2016 - 2019</template>
         <template #header>
           <header>
-            <b><a href="https://www.liverpool.ac.uk/">University of Liverpool</a></b>
-            - BSc (Hons) Computer Science (First Class)
+            <b><a href="https://www.liverpool.ac.uk/">University of Liverpool</a></b
+            ><br />
           </header>
         </template>
+        <ul>
+          <li>BSc (Hons) Computer Science (First Class)</li>
+        </ul>
       </role-block>
     </section>
   </div>
@@ -302,7 +308,7 @@ section {
 }
 
 section:last-of-type > .row:not(:last-child) main {
-  padding-bottom: 0.16em;
+  padding-bottom: 1.6em;
 }
 
 aside,
@@ -347,40 +353,8 @@ h1 {
   letter-spacing: -0.02em;
 }
 
-.tech-list {
-  display: grid;
-  list-style: none;
-  grid-gap: 5px;
-  grid-template-columns: repeat(6, 1fr);
-  grid-auto-flow: dense;
-
-  li {
-    flex-shrink: 0;
-    display: flex;
-  }
-
-  &.squares {
-    padding-bottom: 10px;
-
-    li::before {
-      border-radius: 20%;
-    }
-  }
-
-  li::before {
-    display: block;
-    content: ' ';
-    background-color: var(--color);
-    height: 0.9em;
-    width: 0.9em;
-    border-radius: 100%;
-    margin: 0.1em 0.5em 0.1em 0.1em;
-    float: left;
-  }
-}
-
 ul {
-  margin: 0 15px 0 8px;
+  margin: 0;
   padding: 0;
   list-style: none;
 }

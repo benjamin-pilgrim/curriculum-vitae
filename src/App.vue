@@ -1,18 +1,16 @@
 <template>
   <metainfo />
   <div class="sheet sheet-content">
-    <section class="row">
+    <section class="row header">
       <aside><h1>Benjamin Pilgrim</h1></aside>
-      <links />
+      <links/>
     </section>
     <section>
       <role-block>
         <template #date>Feb 2024 - Present</template>
         <template #header>
-          <header>
-             <b><a href="https://risqcapital.com">RISQ Capital</a></b
-            ><br />Senior DevOps Engineer
-          </header>
+          <b><a href="https://www.risqcapital.com/">RISQ Research</a></b>
+          <span>Senior DevOps Engineer</span>
         </template>
         <ul>
           <li>
@@ -24,9 +22,9 @@
             <repo-link href="https://github.com/risqcapital/pyagnostics">pyagnostics</repo-link>
           </li>
           <li>
-            Delivered a custom <acronym title="Amazon Web Services">AWS</acronym> landing zone in
-            Terraform with multi-account patterns for tenant and environment isolation, security,
-            and compliance controls.
+            Delivered a custom <acronym title="Amazon Web Services">AWS</acronym> Well-Architected
+            landing zone, leveraging account isolation boundaries for security and compliance
+            controls using Terraform and AWS Organizations.
           </li>
           <li>
             Designed <acronym title="Identity and Access Management">IAM</acronym> architecture for
@@ -35,49 +33,56 @@
             <acronym title="OpenID Connect">OIDC</acronym>, and permission boundaries.
           </li>
           <li>
-            Rebuilt information security policies, documentation, and
-            <acronym title="Information Security Management System">ISMS</acronym> to achieve audit
-            readiness against a regulated external framework.
+            Planned, implemented and administered RISQ Group's Information Security Management
+            System, to compy with external standards within a regulated industry.
           </li>
           <li>
-            Architected a global hybrid network using Cloud WAN,
+            Architected RISQ's global hybrid network using Cloud WAN,
             <acronym title="IP Address Manager">IPAM</acronym>,
-            <acronym title="Virtual Private Network">VPN</acronym>, and Route 53, connecting cloud
-            and co-located environments.
+            <acronym title="Virtual Private Network">VPN</acronym>s, and Route 53 for DNS,
+            connecting cloud and co-located environments.
           </li>
           <li>
-            Defined reusable Terraform modules and deployment patterns for golden-path building
-            blocks, including ephemeral batch and scheduled workloads, and custom
-            <acronym title="Systems Manager">SSM</acronym>-based deployments for long-running,
-            systemd-managed trading systems.
+            Defined reusable Terraform modules implementing consistent patterns for golden-path
+            building blocks. These include short-lived scheduled and event-driven workloads managed
+            through Step Functions and <acronym title="Elastic Container Service">ECS</acronym>, as
+            well as stateful persistent low-latency trading systems run as systemd services,
+            deployed via custom <acronym title="Systems Manager">SSM</acronym> associations.
           </li>
           <li>
             Built a data platform for batch and streaming time-series market data, with
             metadata-driven integrity and retry handling.
           </li>
           <li>
-            Saved £20,000 in <acronym title="Amazon Web Services">AWS</acronym> spend through
+            Designed and developed a customer facing gaming web application using React and Convex
+            under tight timelines.
+
+            <!--            come back to this, seems underselling-->
+          </li>
+          <li>
+            Saved £20,000+ in <acronym title="Amazon Web Services">AWS</acronym> spend through
             infrastructure and workload cost optimisation.
+          </li>
+          <li>
+            Designed and supervised
+            <Acronym title="Extract, Transform, Load">ETL</Acronym> pipelines managing weekly
+            transactions worth over £6,000,000 with human-in-the-loop approval.
           </li>
         </ul>
       </role-block>
       <role-block>
         <template #date>Mar 2022 - Nov 2023</template>
         <template #header>
-          <header>
-            <b><a href="https://www.mmtdigital.co.uk/">MMT Digital</a></b
-            ><br />Cloud Systems Engineer
-          </header>
-          <header>
-            <b><a href="https://careers.vodafone.co.uk/digital-consumer">Vodafone</a></b
-            ><br />Senior DevOps Engineer <br /><span class="muted">(via MMT Digital)</span>
-          </header>
+          <b><a href="https://www.mmtdigital.co.uk/">MMT Digital</a></b>
+          <span>Cloud Systems Engineer</span>
+          <b><a href="https://careers.vodafone.co.uk/digital-consumer">Vodafone</a></b>
+          <span>Senior DevOps Engineer</span>
         </template>
         <ul>
           <li>
-            Shortlisted as a finalist for
+            One of nine finalists for
             <a
-              href="https://event.computing.co.uk/digitaltechnologyleaderswards2023/en/page/2023-finalists"
+              href="https://web.archive.org/web/20231210083101/https://event.computing.co.uk/digitaltechnologyleaderswards2023/en/page/2023-finalists"
               >Young Digital Professional of the Year</a
             >
             in the 2023 Computing Digital Technology Leaders Awards.
@@ -85,63 +90,51 @@
           <li>
             Contributed to strategy for a global Internal Developer Platform, improving developer
             efficiency and reducing time to market.
+
+            <!--            Review-->
           </li>
           <li>
-            Selected for focused specialist sprints to unblock strategic platform issues, including
-            onboarding the first client team and feeding implementation insights back to downstream
-            teams.
+            Drafted into hand-selected specialist team of experts to resolve key strategic blockers.
           </li>
           <li>
-            Designed and led development of control-plane
-            <acronym title="Application Programming Interfaces">APIs</acronym> for the platform,
-            built on serverless <acronym title="Amazon Web Services">AWS</acronym> services
-            including Lambda, API Gateway, Step Functions, DynamoDB, and S3.
+            Led development of control-plane interfaces for the platform, built on serverless
+            technologies.
           </li>
           <li>
-            Led the design and development of an Azure DevOps-based
-            <acronym title="Continuous Integration / Continuous Delivery / Continuous Testing"
-              >CI/CD/CT</acronym
-            >
-            framework for standardised multi-environment service delivery.
+            Collaboratively worked, leading design, prototype and development of an Azure DevOps
+            Pipelines framework for standardised multi-environment service delivery.
           </li>
           <li>
-            Developed a <acronym title="Command-Line Interface">CLI</acronym> tool and web interface
-            for parameterised service templates, enabling teams to scaffold new services with
-            baseline <acronym title="Continuous Integration / Continuous Delivery">CI/CD</acronym>,
-            infrastructure, and code in minutes rather than days.
+            Reduced time to first deployment for new services by 95%+, enabling teams to provision
+            new services with secure-by-design pipeline definitions, infrastructure, and baseline
+            application code through development of a parameterised repository templating framework.
           </li>
           <li>
-            Maintained widely adopted internal Terraform modules for
-            <acronym title="Amazon Web Services">AWS</acronym> infrastructure, improving
-            documentation, test coverage, and usability for downstream teams.
+            Maintained globally adopted Terraform modules for
+            <acronym title="Amazon Web Services">AWS</acronym> components, including API Gateway and
+            static site hosting, driving efficiency through reuse.
           </li>
           <li>
-            Guided my team to improve code quality and reliability through automated testing,
-            linting, formatting and type-checking in
-            <acronym title="Continuous Integration">CI</acronym>.
+            Delivered improvements in code quality and reliability through leading my team's
+            adoption of automated testing, linting, formatting and type-checking.
           </li>
           <li>
-            Mentored junior and mid-level engineers through pair programming and code reviews,
-            helping to improve their technical skills and confidence.
+            Mentored multiple junior and mid-level engineers through pair programming and code
+            reviews, helping to improve their technical skills and confidence.
           </li>
         </ul>
       </role-block>
       <role-block>
         <template #date>Jul 2019 - Mar 2022</template>
         <template #header>
-          <header>
-            <b><a href="https://www.htk.co.uk/">HTK</a></b
-            ><br />Software Engineer
-          </header>
+          <b><a href="https://www.htk.co.uk/">HTK</a></b>
+          <span>Software Engineer</span>
         </template>
         <ul>
           <li>
-            Java backend engineer on an event-driven multi-tenant loyalty and marketing automation
-            <acronym title="Software as a Service">SaaS</acronym> platform.
-          </li>
-          <li>
-            Developed a real-time transaction and promotion rules engine using Spring Boot, Kafka,
-            Storm and DocumentDB.
+            Contributed as a backend engineer to multiple projects built in Java using Spring Boot,
+            Kafka, Storm and DocumentDB. These included a real-time transaction and promotion rules
+            engine and a multi-tenant loyalty and marketing automation platform.
           </li>
           <li>
             Developed third-party integrations and
@@ -149,26 +142,37 @@
             transaction data, including <acronym title="Point of Sale">POS</acronym> systems.
           </li>
           <li>
-            Developed a multi-account <acronym title="Amazon Web Services">AWS</acronym> landing
-            zone proof of concept in Terraform for a greenfield data lakehouse platform.
+            Delivered a multi-account <acronym title="Amazon Web Services">AWS</acronym> landing
+            zone proof-of-concept in Terraform for a greenfield data lake-house platform, expanding
+            my skill-set into AWS and cloud technologies.
           </li>
           <li>
-            Integrated Vue.js into a legacy Java Server Pages environment to enable incremental
-            frontend modernisation.
-          </li>
-          <li>
-            Designed and built frontend pages and components, including a nested condition builder
-            with a 'drag-and-drop' interface.
+            Integrated Vue.js into a legacy Java/Jakarta Server Faces environment to enable
+            incremental frontend modernisation.
           </li>
         </ul>
       </role-block>
       <role-block>
-        <template #date>2016 - 2019</template>
         <template #header>
-          <header>
-            <b><a href="https://www.liverpool.ac.uk/">University of Liverpool</a></b
-            ><br />
-          </header>
+          <b>Consulting &<br />Personal Projects</b>
+        </template>
+        <ul>
+          <li>
+            Consulted on cloud architecture for a
+            <Acronym title="Anti-money laundering">AML</Acronym> transaction monitoring platform.
+          </li>
+          <li>Developed a cross-platform mobile app in React Native for gamified task tracking.</li>
+          <li>
+            Built open-source components for managing VYoS routers at scale.
+            <repo-link href="https://github.com/TGNThump/terraform-provider-vyos"
+              >terraform-provider-vyos</repo-link
+            >
+          </li>
+        </ul>
+      </role-block>
+      <role-block>
+        <template #header>
+          <b><a href="https://www.liverpool.ac.uk/">University of Liverpool</a></b>
         </template>
         <ul>
           <li>BSc (Hons) Computer Science (First Class)</li>
@@ -203,7 +207,6 @@ export default {
 
 <style lang="scss">
 $primary: #3a446e;
-$header-gap: 22px;
 
 @import 'normalize.css/normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Montserrat&display=swap');
@@ -302,28 +305,32 @@ section {
   }
 }
 
+.row:not(.header) {
+  margin-bottom: 1em;
+}
+
 .row {
   display: grid;
   grid-template-columns: 27% auto;
 }
 
-section:last-of-type > .row:not(:last-child) main {
-  padding-bottom: 1.6em;
-}
+//section:last-of-type > .row:not(:last-child) main {
+//  padding-bottom: 1em;
+//}
 
 aside,
 main {
-  padding: 0.6em 1em 0 15px;
+  padding: 0 15px 0 15px;
 
   > * {
     padding-bottom: 0.5em;
   }
 }
 
-.sheet-content > .row:first-child aside,
-.sheet-content > .row:first-child main {
-  padding-top: $header-gap;
-}
+//.sheet-content > .row:first-child aside,
+//.sheet-content > .row:first-child main {
+//  padding-top: $header-gap;
+//}
 
 aside {
   background: transparent;
@@ -346,11 +353,9 @@ h6 {
 
 h1 {
   font-family: 'Manrope', sans-serif;
-  padding-top: 0;
-  padding-bottom: $header-gap;
+  padding: 1.8rem 0;
   line-height: 2.15rem;
-  font-size: 2rem;
-  letter-spacing: -0.02em;
+  font-size: 1.8rem;
 }
 
 ul {

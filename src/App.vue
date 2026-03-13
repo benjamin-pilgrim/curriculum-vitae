@@ -1,14 +1,15 @@
 <template>
   <metainfo />
-  <div class="sheet sheet-content">
-    <section class="row header">
-      <aside><h1>Benjamin Pilgrim</h1></aside>
-      <main class="header-meta">
-        <links/>
-      </main>
-    </section>
-    <section>
-      <role-block>
+  <div ref="pageShell" class="page-shell">
+    <div ref="sheet" class="sheet sheet-content">
+      <section class="row header">
+        <aside><h1>Benjamin Pilgrim</h1></aside>
+        <main class="header-meta">
+          <links/>
+        </main>
+      </section>
+      <section>
+        <role-block>
         <template #date>Feb 2024 - Present</template>
         <template #header>
           <b><a href="https://www.risqcapital.com/">RISQ Research</a></b>
@@ -179,8 +180,9 @@
         <ul>
           <li>BSc (Hons) Computer Science (First Class)</li>
         </ul>
-      </role-block>
-    </section>
+        </role-block>
+      </section>
+    </div>
   </div>
 </template>
 
@@ -222,6 +224,12 @@ $primary: #3a446e;
   box-sizing: border-box;
 }
 
+html {
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
 @page {
   size: A4;
 }
@@ -245,6 +253,40 @@ body {
   }
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
+}
+
+@media screen {
+  html,
+  body {
+    overflow: auto;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  .page-shell {
+    width: max(100vw, calc(210mm + 16px));
+    min-width: max-content;
+    margin: 8px 0 20px;
+    padding: 0 8px;
+  }
+
+  .page-shell > .sheet-content {
+    width: 210mm !important;
+    min-width: 210mm !important;
+    max-width: 210mm !important;
+    height: 297mm !important;
+    min-height: 297mm !important;
+    max-height: 297mm !important;
+    margin: 0 auto !important;
+  }
+}
+
+@media print {
+  .page-shell {
+    padding: 0;
+  }
 }
 
 a,

@@ -6,11 +6,11 @@
       >Colchester, Essex <icon name="map-marked-alt"
     /></a>
     <span class="links-gap" aria-hidden="true"></span>
+    <a href="https://github.com/benjamin-pilgrim?tab=repositories" target="_blank"
+      >benjamin-pilgrim <icon brand name="github"
+    /></a>
     <a href="https://www.linkedin.com/in/benjamin-pilgrim/" target="_blank"
       >benjamin-pilgrim <icon brand name="linkedin"
-    /></a>
-    <a href="https://github.com/tgnthump?tab=repositories" target="_blank"
-      >TGNThump <icon brand name="github"
     /></a>
   </div>
 </template>

@@ -3,7 +3,9 @@
   <div class="sheet sheet-content">
     <section class="row header">
       <aside><h1>Benjamin Pilgrim</h1></aside>
-      <links/>
+      <main class="header-meta">
+        <links/>
+      </main>
     </section>
     <section>
       <role-block>
@@ -305,12 +307,39 @@ section {
 }
 
 .row:not(.header) {
-  margin-bottom: 1em;
+  margin-bottom: 1.4em;
 }
 
 .row {
   display: grid;
   grid-template-columns: 27% auto;
+}
+
+.header {
+  align-items: start;
+  margin-bottom: 0.9em;
+}
+
+.header > aside,
+.header > main {
+  padding-top: 1.15rem;
+  padding-bottom: 1.15rem;
+}
+
+.header > aside {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.35rem;
+}
+
+.header-meta {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 0;
 }
 
 //section:last-of-type > .row:not(:last-child) main {
@@ -352,8 +381,8 @@ h6 {
 
 h1 {
   font-family: 'Manrope', sans-serif;
-  padding: 1.8rem 0;
-  line-height: 2.15rem;
+  padding: 0;
+  line-height: 2rem;
   font-size: 1.8rem;
 }
 
@@ -365,7 +394,7 @@ ul {
 
 li {
   padding-left: 0;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
 }
 
 main > header b {

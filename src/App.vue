@@ -236,7 +236,6 @@ body.A4 .sheet {
 
 body {
   @media print {
-    zoom: 122.5%;
     background: white;
   }
   @media screen {

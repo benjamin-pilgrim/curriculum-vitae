@@ -1,7 +1,7 @@
 <template>
   <div class="links">
     <a href="mailto:ben@pilgrim.me.uk" target="_blank">ben@pilgrim.me.uk <icon name="envelope" /></a>
-    <a href="tel:07950365848" target="_blank">07950 365848 <icon name="mobile-alt" /></a>
+    <a href="tel:+447343061225" target="_blank">07343 061225<icon name="mobile-alt" /></a>
     <a href="https://maps.app.goo.gl/VG6d3VYSqo2JQzQK8" target="_blank"
       >Colchester, Essex <icon name="map-marked-alt"
     /></a>

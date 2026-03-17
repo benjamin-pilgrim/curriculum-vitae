@@ -104,13 +104,14 @@
             technologies.
           </li>
           <li>
-            Collaboratively worked, leading design, prototype and development of an Azure DevOps
-            Pipelines framework for standardised multi-environment service delivery.
+            Led design, prototyping, and development of an Azure DevOps Pipelines framework for
+            standardised multi-environment service delivery, deploying Terraform infrastructure and
+            Helm charts to Kubernetes clusters.
           </li>
           <li>
             Reduced time to first deployment for new services by 95%+, enabling teams to provision
-            new services with secure-by-design pipeline definitions, infrastructure, and baseline
-            application code through development of a parameterised repository templating framework.
+            secure-by-design parameterised repository templates including pipeline definitions,
+            Terraform infrastructure, Helm charts, and baseline application code.
           </li>
           <li>
             Maintained globally adopted Terraform modules for
